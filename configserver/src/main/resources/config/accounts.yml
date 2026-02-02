@@ -5,7 +5,7 @@ accounts:
   message: "Welcome to mad accounts"
   contact:
     name: "Mad - Accounts - Dev"
-    email: "mad@mad.com"
+    email: "{cipher}f21e5eed9f7200f4b26bcac5bdd428db79c0a5643eda10e140b8b7bdfa0ea7d8"
   support:
     - (566)643-3568
     - (566)643-3569

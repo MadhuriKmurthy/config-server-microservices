@@ -8,6 +8,10 @@ spring:
       server:
         native:
           search-locations: "classpath:/config"
+          #search-locations: "file:///Users//....//... -- use this config yamls are stored in file system
+
+encrypt:
+  key: "BG75Y2743FHJHBWEF7834Y7TBVIS" #Use localhost:8071/encrypt and pass the value you want you encrypt
 
 
 server:
