@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to mad cards - prod app"
+  contact:
+    name: "Mad - Cards - CEO"
+    email: "mad@mad.com"
+  support:
+    - (566)643-3556
+    - (566)643-3557

@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to mad loans"
+  contact:
+    name: "Mad - Loans - Dev"
+    email: "mad@mad.com"
+  support:
+    - (566)643-3568
+    - (566)643-3569

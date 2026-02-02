@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to mad loans - QA app"
+  contact:
+    name: "Mad - Loans - QA"
+    email: "mad@mad.com"
+  support:
+    - (566)643-3523
+    - (566)643-3524
