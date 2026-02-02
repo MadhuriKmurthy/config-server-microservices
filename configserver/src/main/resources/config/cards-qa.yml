@@ -1,7 +1,7 @@
 build:
   version: "1.0"
 
-accounts:
+cards:
   message: "Welcome to mad cards - qa app"
   contact:
     name: "Mad - Cards - QA"
