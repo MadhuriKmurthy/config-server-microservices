@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to mad accounts - prod app"
+  message: "Welcome to mad accounts - production app"
   contact:
     name: "Mad - Accounts - CEO"
     email: "{cipher}f21e5eed9f7200f4b26bcac5bdd428db79c0a5643eda10e140b8b7bdfa0ea7d8"
