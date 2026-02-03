@@ -2,13 +2,20 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+    #active: native - only for classpath and file approach
+    active: git
   cloud:
     config:
       server:
         native:
-          search-locations: "classpath:/config"
+          #search-locations: "classpath:/config" -- use this for classpath approach
           #search-locations: "file:///Users//....//... -- use this config yamls are stored in file system
+        git:
+          uri: "https://github.com/MadhuriKmurthy/ms-config-repo.git"
+          default-label: main #default branch
+          timeout: 5 # wait for 5 secs if cant connect within 5 sec fail
+          clone-on-start: true # clone the github repo during start of the app
+          force-pull: true #override local changes - alwaya read from remote repo
 
 encrypt:
   key: "BG75Y2743FHJHBWEF7834Y7TBVIS" #Use localhost:8071/encrypt and pass the value you want you encrypt
