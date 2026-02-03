@@ -16,6 +16,11 @@ spring:
           timeout: 5 # wait for 5 secs if cant connect within 5 sec fail
           clone-on-start: true # clone the github repo during start of the app
           force-pull: true #override local changes - alwaya read from remote repo
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
 
 encrypt:
   key: "BG75Y2743FHJHBWEF7834Y7TBVIS" #Use localhost:8071/encrypt and pass the value you want you encrypt
@@ -23,3 +28,9 @@ encrypt:
 
 server:
   port: 8071
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
